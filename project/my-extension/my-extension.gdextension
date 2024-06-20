@@ -1,0 +1,8 @@
+[configuration]
+entry_symbol = "extension_entry"
+compatibility_minimum = 4.2
+
+[libraries]
+windows.x86_64 = "lib/zig-gdextension.dll"
+linux.x86_64 = "lib/libzig-gdextension.so"
+macos = "lib/libzig-gdextension.dylib"
